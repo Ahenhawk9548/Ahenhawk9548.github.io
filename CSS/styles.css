@@ -1,0 +1,102 @@
+/*Avry Henhawk 8859548*/
+html{
+  font-style: normal;
+  font-variant: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font: italic small-caps bold 20px/1.5 arial, helvetica, sans-serif;
+  color: white;
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-top: 1rem;
+    background-color: black;
+}
+p{
+    color: white;
+}
+header,footer{
+    color:white;
+    text-align: center;
+    font-variant: small-caps;
+    text-align: center;
+    border: 2px solid #000000;
+    background: rgb(54, 45, 45);
+    background: linear-gradient(to right, rgb(45,45,54),rgb(54,45,45));
+    }
+h1,h2{ 
+    color: whitesmoke;}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps; 
+    font-size: 1.5rem;
+    color: #fff;}
+q{
+    font-style: italic;
+     font-family: "cursive"; 
+     font-size: 1.5;
+    color: white;}
+cite{
+    color: white;}
+footer p {
+    font-size: 0.8rem;
+    background-color: black;}
+.main-section-figure{
+    border-radius: 1rem;
+    text-align: center;}
+#relative-path-image{
+    background-color: hsl(0, 0, 0);
+    border: .25rem solid rgb(32, 32, 32);
+    border-radius: 10px;
+    color:white}
+#absolute-path-image{
+    background-color: hsl(0, 0, 0);
+    border: .25rem solid rgb(64, 64, 64);
+    border-radius: 10px;
+    color:white;
+    }
+.main-section-figure img{
+    width:80%;
+    height:90%;
+    padding: .5rem;
+    border-radius:10px ;
+    box-sizing: border-box;}
+#video{
+    font-size: 20px;
+    text-align: center;}
+iframe,video{
+    width: 70%; 
+    height: 70%; 
+    height: 20em; 
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #888;
+    border: 2px solid #789;
+    border-radius: 10px;}
+#quote{
+    border: 2px solid #fff;
+    background-color: #000000;
+    box-shadow: 10px 10px 8px black;
+    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px 12px black;
+    text-align: left;
+    padding: .5em;
+}
+figure{
+    padding: 1rem;
+    margin: 2rem;
+    box-sizing: border-box;
+    text-align: center;}
+section{background-color: hsl(0, 0, 0);}
